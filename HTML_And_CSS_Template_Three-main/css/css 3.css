@@ -1874,7 +1874,7 @@ header a {
 
 .header {
     padding-top: var(--content-padding);
-    background-color: black;
+    background-color: #242424;
 }
 
 .header header {
@@ -1934,6 +1934,7 @@ header .contact {
 
 .imp-links ul {
     padding: 0;
+    list-style: non;
 }
 
 .imp-links ul li {
