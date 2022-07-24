@@ -1921,7 +1921,7 @@ header .contact {
 
 .imp-links ul {
     padding: 0;
-    list-style: non;
+    list-style: none;
 }
 
 .imp-links ul li {
