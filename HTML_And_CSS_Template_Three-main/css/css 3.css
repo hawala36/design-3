@@ -882,7 +882,7 @@ header .other-links a i {
     background-color: var(--section-background);
     border-radius: 10px;
     position: relative;
-    padding-top: 65px;
+    padding-top: 60px;
 }
 
 .member::after {
@@ -899,6 +899,10 @@ header .other-links a i {
 
 .member:hover:after {
     width: 100%;
+}
+
+.member:hover img{
+    filter: grayscale(100%);
 }
 
 .member:hover .text h2 {
@@ -931,23 +935,6 @@ header .other-links a i {
     position: relative;
     width: fit-content;
     align-self: flex-end;
-}
-
-.member .img::after {
-    content: "";
-    width: 0;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background-color: rgba(128, 128, 128, 0.25);
-    transition-duration: 0.3s;
-    border-radius: inherit;
-
-}
-
-.member .img:hover::after {
-    width: 100%;
 }
 
 .member img {
