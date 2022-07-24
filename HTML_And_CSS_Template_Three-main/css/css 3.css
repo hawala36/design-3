@@ -901,7 +901,7 @@ header .other-links a i {
     width: 100%;
 }
 
-.member:hover img{
+.member:hover img {
     filter: grayscale(100%);
 }
 
@@ -1972,8 +1972,8 @@ header .address {
 
 header .gal {
     display: grid;
-    grid-template-columns: repeat(3,80px);
-    grid-template-rows: repeat(2,80px);
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(2, 80px);
     gap: 10px;
     height: fit-content;
 }
@@ -1990,19 +1990,23 @@ header .gal .photo {
     margin-top: 60px;
 }
 
-@media (max-width:778px){
+@media (max-width:778px) {
     header .contact {
         align-items: center;
     }
+
     .contact p {
         text-align: center;
     }
+
     .imp-links ul li {
         text-align: center;
     }
+
     .address .ad {
         flex-direction: column;
     }
+
     header .gal {
         display: flex;
         gap: 10px;
